@@ -127,7 +127,7 @@ class PerformWatchHandler {
 	 */
 	protected function shouldBePushed()
 	{
-		return  true; //$this->oldStatus['country_rank'] != $this->newStatus['country_rank'];
+		return $this->oldStatus['country_rank'] != $this->newStatus['country_rank'];
 	}
 
 	/**
