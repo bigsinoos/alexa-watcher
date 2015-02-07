@@ -9,4 +9,5 @@ Currently change notifications are pushed by emails but you can implement any dr
  - Clone the repo
  - Run ```composer update```
  - Replace your desired emails and sites to ```config/alexa.php``` to make them able to watch
-
+ - Add Laravel's global cron for scheduling jobs
+ - Or you can run ```php artisan alexa:watch``` to check manually.
