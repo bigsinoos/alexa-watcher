@@ -113,8 +113,8 @@ class PerformWatchHandler {
 	protected function sendEmailNotifications()
 	{
 		$this->emailPusher->push(
-			$this->newStatus['country_rank'],
 			$this->oldStatus['country_rank'],
+			$this->newStatus['country_rank'],
 			$this->command->site,
 			$this->command->pushables
 		);
