@@ -20,10 +20,16 @@
             'email' => 'hossein.bargi@gmail.com'
         ],
         [
-            'firstName' => 'Amir',
-            'lastName' => 'Sameni',
+            'firstName' => 'Amin',
+            'lastName' => 'Gholami',
             'gender' => \AlexaWatcher\Entities\Pushable::MALE,
-            'email' => 'am_sameni@gmail.com'
+            'email' => 'aminrgh@gmail.com'
+        ],
+        [
+            'firstName' => 'Behzad',
+            'lastName' => 'Shabani',
+            'gender' => \AlexaWatcher\Entities\Pushable::MALE,
+            'email' => 'behzad.shabani@gmail.com'
         ]
     ]
 ];
